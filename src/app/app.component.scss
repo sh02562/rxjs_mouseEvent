@@ -1,0 +1,32 @@
+// @import url(https://fonts.googleapis.com/css?family=Roboto:400,900);
+// body, html {
+// 	position: relative;
+// 	height: 100%; 
+// 	width : 100%;  
+// 	margin: 0;
+//   background-color: #000000;
+// }
+
+.circle {
+	position: absolute;
+  border: solid 1px #ccc;
+	width: 60px; 
+	height: 60px; 
+  border-radius: 50%;  
+}
+
+#mousePointer {
+    height: 25px;
+    width: 25px;
+    background-color: red;
+    border-radius: 50%;
+    position: absolute;
+}
+
+.dot {
+  height: 25px;
+  width: 25px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+}

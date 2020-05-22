@@ -28,6 +28,7 @@ export class AppComponent implements OnInit, AfterViewInit {
     this.canvas.height = window.innerHeight - 20;
     this.ctx.lineJoin = 'round';
     this.ctx.lineCap = 'round';
+    this.ctx.lineWidth = 30;
   }
 
   private mouseMove(): void {
